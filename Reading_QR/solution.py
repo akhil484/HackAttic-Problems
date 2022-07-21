@@ -1,3 +1,5 @@
+#Problem link - https://hackattic.com/challenges/reading_qr
+
 from urllib.request import urlopen
 import json
 import cv2
