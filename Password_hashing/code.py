@@ -35,7 +35,7 @@ scrypt_hash = scrypt_obj.hex()
 
 
 #Post the data
-post_response = requests.post('https://hackattic.com/challenges/password_hashing/solve?access_token=8fc2793c26fbf04e', json={
+post_response = requests.post('https://hackattic.com/challenges/password_hashing/solve?access_token=', json={
 'sha256':hashed_password, 'hmac': hmac_hash, 'pbkdf2': pbkdf_hash,'scrypt': scrypt_hash})
 
 print(post_response)
